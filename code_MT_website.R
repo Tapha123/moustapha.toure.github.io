@@ -28,3 +28,6 @@ file.remove("netlify.toml")
 #   ⟶
 # ⟶ root directory.
 
+# Build the website locally using Hugo
+blogdown::build_site()
+
